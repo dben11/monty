@@ -86,4 +86,5 @@ void (*pick_func(char *s))(stack_t **, unsigned int);
 void push(stack_t **stack, unsigned int param);
 void push_queue(stack_t **stack, unsigned int param);
 void pall(stack_t **stack, unsigned int line_number);
+void pint(stack_t **stack, unsigned int line_number);
 #endif /* _MONTY_H */
