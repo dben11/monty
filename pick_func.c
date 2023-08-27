@@ -28,6 +28,7 @@ void (*pick_func(char *s))(stack_t **, unsigned int)
 		{"pchar", pchar},
 		{"pstr", pstr},
 		{"rotl", rotl},
+		{"rotr", rotr},
 		{NULL, NULL}
 	};
 	while (op_funcs[n].opcode)
