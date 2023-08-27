@@ -66,7 +66,7 @@ void handle_uerror(int errno, unsigned int err_line)
 			fprintf(stderr, "L%d: can't pint, stack empty\n", err_line);
 			break;
 		case ERR_POP_USG:
-			fprintf(stderr, "L%d: can't pop, stack empty\n", err_line);
+			fprintf(stderr, "L%d: can't pop an empty stack\n", err_line);
 			break;
 		case ERR_SWAP_USG:
 			fprintf(stderr, "L%d: can't swap, stack too short\n", err_line);
