@@ -81,7 +81,7 @@ void handle_uerror(int errno, unsigned int err_line)
 			fprintf(stderr, "L%d: can't div, stack too short\n", err_line);
 			break;
 		case ERR_DIV_ZRO:
-			fprintf(stderr, "L%d: can't division by zero, stack too short\n", err_line);
+			fprintf(stderr, "L%d: can't division by zero\n", err_line);
 			break;
 		case ERR_MUL_USG:
 			fprintf(stderr, "L%d: can't mul, stack too short\n", err_line);
