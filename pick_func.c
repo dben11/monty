@@ -24,6 +24,7 @@ void (*pick_func(char *s))(stack_t **, unsigned int)
 		{"sub", sub},
 		{"div", _div},
 		{"mul", mul},
+		{"mod", _mod},
 		{NULL, NULL}
 	};
 	while (op_funcs[n].opcode)
