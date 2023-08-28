@@ -57,7 +57,7 @@ void handle_uerror(int errno, unsigned int err_line)
 	switch (errno)
 	{
 		case ERR_ARG_USG:
-			fprintf(stderr, "USAGE monty file\n");
+			fprintf(stderr, "USAGE: monty file\n");
 			break;
 		case ERR_PUSH_USG:
 			fprintf(stderr, "L%d: usage: push integer\n", err_line);
